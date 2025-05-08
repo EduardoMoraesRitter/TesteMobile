@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		558458772DA4381700936799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5584585C2DA4381400936799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558458632DA4381400936799;
+			remoteInfo = ModoProtecaoCompleto;
+		};
+		558458812DA4381700936799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5584585C2DA4381400936799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558458632DA4381400936799;
+			remoteInfo = ModoProtecaoCompleto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		558458642DA4381400936799 /* ModoProtecaoCompleto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModoProtecaoCompleto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		558458762DA4381700936799 /* ModoProtecaoCompletoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModoProtecaoCompletoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		558458802DA4381700936799 /* ModoProtecaoCompletoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModoProtecaoCompletoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		558458942DA4387800936799 /* Exceptions for "ModoProtecaoCompleto" folder in "ModoProtecaoCompleto" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 558458632DA4381400936799 /* ModoProtecaoCompleto */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		558458662DA4381400936799 /* ModoProtecaoCompleto */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				558458942DA4387800936799 /* Exceptions for "ModoProtecaoCompleto" folder in "ModoProtecaoCompleto" target */,
+			);
+			path = ModoProtecaoCompleto;
+			sourceTree = "<group>";
+		};
+		558458792DA4381700936799 /* ModoProtecaoCompletoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ModoProtecaoCompletoTests;
+			sourceTree = "<group>";
+		};
+		558458832DA4381700936799 /* ModoProtecaoCompletoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ModoProtecaoCompletoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558458612DA4381400936799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558458732DA4381700936799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5584587D2DA4381700936799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5584585B2DA4381400936799 = {
+			isa = PBXGroup;
+			children = (
+				558458662DA4381400936799 /* ModoProtecaoCompleto */,
+				558458792DA4381700936799 /* ModoProtecaoCompletoTests */,
+				558458832DA4381700936799 /* ModoProtecaoCompletoUITests */,
+				558458652DA4381400936799 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558458652DA4381400936799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558458642DA4381400936799 /* ModoProtecaoCompleto.app */,
+				558458762DA4381700936799 /* ModoProtecaoCompletoTests.xctest */,
+				558458802DA4381700936799 /* ModoProtecaoCompletoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558458632DA4381400936799 /* ModoProtecaoCompleto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5584588A2DA4381700936799 /* Build configuration list for PBXNativeTarget "ModoProtecaoCompleto" */;
+			buildPhases = (
+				558458602DA4381400936799 /* Sources */,
+				558458612DA4381400936799 /* Frameworks */,
+				558458622DA4381400936799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				558458662DA4381400936799 /* ModoProtecaoCompleto */,
+			);
+			name = ModoProtecaoCompleto;
+			packageProductDependencies = (
+			);
+			productName = ModoProtecaoCompleto;
+			productReference = 558458642DA4381400936799 /* ModoProtecaoCompleto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		558458752DA4381700936799 /* ModoProtecaoCompletoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5584588D2DA4381700936799 /* Build configuration list for PBXNativeTarget "ModoProtecaoCompletoTests" */;
+			buildPhases = (
+				558458722DA4381700936799 /* Sources */,
+				558458732DA4381700936799 /* Frameworks */,
+				558458742DA4381700936799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558458782DA4381700936799 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				558458792DA4381700936799 /* ModoProtecaoCompletoTests */,
+			);
+			name = ModoProtecaoCompletoTests;
+			packageProductDependencies = (
+			);
+			productName = ModoProtecaoCompletoTests;
+			productReference = 558458762DA4381700936799 /* ModoProtecaoCompletoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5584587F2DA4381700936799 /* ModoProtecaoCompletoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558458902DA4381700936799 /* Build configuration list for PBXNativeTarget "ModoProtecaoCompletoUITests" */;
+			buildPhases = (
+				5584587C2DA4381700936799 /* Sources */,
+				5584587D2DA4381700936799 /* Frameworks */,
+				5584587E2DA4381700936799 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558458822DA4381700936799 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				558458832DA4381700936799 /* ModoProtecaoCompletoUITests */,
+			);
+			name = ModoProtecaoCompletoUITests;
+			packageProductDependencies = (
+			);
+			productName = ModoProtecaoCompletoUITests;
+			productReference = 558458802DA4381700936799 /* ModoProtecaoCompletoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5584585C2DA4381400936799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					558458632DA4381400936799 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					558458752DA4381700936799 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 558458632DA4381400936799;
+					};
+					5584587F2DA4381700936799 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 558458632DA4381400936799;
+					};
+				};
+			};
+			buildConfigurationList = 5584585F2DA4381400936799 /* Build configuration list for PBXProject "ModoProtecaoCompleto" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5584585B2DA4381400936799;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 558458652DA4381400936799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558458632DA4381400936799 /* ModoProtecaoCompleto */,
+				558458752DA4381700936799 /* ModoProtecaoCompletoTests */,
+				5584587F2DA4381700936799 /* ModoProtecaoCompletoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558458622DA4381400936799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558458742DA4381700936799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5584587E2DA4381700936799 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558458602DA4381400936799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558458722DA4381700936799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5584587C2DA4381700936799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		558458782DA4381700936799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558458632DA4381400936799 /* ModoProtecaoCompleto */;
+			targetProxy = 558458772DA4381700936799 /* PBXContainerItemProxy */;
+		};
+		558458822DA4381700936799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558458632DA4381400936799 /* ModoProtecaoCompleto */;
+			targetProxy = 558458812DA4381700936799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		558458882DA4381700936799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 649GT9YF28;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		558458892DA4381700936799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 649GT9YF28;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5584588B2DA4381700936799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 649GT9YF28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ModoProtecaoCompleto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Precisamos da câmera para gravar vídeos de segurança.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Precisamos da sua localização para incluir no vídeo de segurança.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Precisamos da sua localização para associar ao vídeo.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Precisamos do microfone para capturar o áudio ambiente.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Precisamos salvar o vídeo na galeria.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Precisamos da câmera para gravar vídeos de segurança.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TesteJoana.ModoProtecaoCompleto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5584588C2DA4381700936799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 649GT9YF28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ModoProtecaoCompleto/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Precisamos da câmera para gravar vídeos de segurança.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Precisamos da sua localização para incluir no vídeo de segurança.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Precisamos da sua localização para associar ao vídeo.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Precisamos do microfone para capturar o áudio ambiente.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Precisamos salvar o vídeo na galeria.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Precisamos da câmera para gravar vídeos de segurança.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TesteJoana.ModoProtecaoCompleto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5584588E2DA4381700936799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 649GT9YF28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TesteJoana.ModoProtecaoCompletoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModoProtecaoCompleto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModoProtecaoCompleto";
+			};
+			name = Debug;
+		};
+		5584588F2DA4381700936799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 649GT9YF28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TesteJoana.ModoProtecaoCompletoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModoProtecaoCompleto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModoProtecaoCompleto";
+			};
+			name = Release;
+		};
+		558458912DA4381700936799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 649GT9YF28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TesteJoana.ModoProtecaoCompletoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModoProtecaoCompleto;
+			};
+			name = Debug;
+		};
+		558458922DA4381700936799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 649GT9YF28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TesteJoana.ModoProtecaoCompletoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModoProtecaoCompleto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5584585F2DA4381400936799 /* Build configuration list for PBXProject "ModoProtecaoCompleto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558458882DA4381700936799 /* Debug */,
+				558458892DA4381700936799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5584588A2DA4381700936799 /* Build configuration list for PBXNativeTarget "ModoProtecaoCompleto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5584588B2DA4381700936799 /* Debug */,
+				5584588C2DA4381700936799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5584588D2DA4381700936799 /* Build configuration list for PBXNativeTarget "ModoProtecaoCompletoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5584588E2DA4381700936799 /* Debug */,
+				5584588F2DA4381700936799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558458902DA4381700936799 /* Build configuration list for PBXNativeTarget "ModoProtecaoCompletoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558458912DA4381700936799 /* Debug */,
+				558458922DA4381700936799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5584585C2DA4381400936799 /* Project object */;
+}
